@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+body{
+     background-image: url(image/reg.jpg);
+     background-repeat: no-repeat;
+     background-size: 100%,700px;
+        margin: 0;
+
+		
+}
+header{
+	background: black;
+	color: white;
+	padding: 8px 0px 6px 40px;
+	height: 70px;
+}
+header h1 {
+	display: inline;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	float: left;
+	margin-top: -10px;
+	margin-right: 15px;
+}
+nav ul li {
+	display: inline-block;
+	color: white;
+	list-style: none;
+	text-decoration: none;
+	float: left;
+	margin-left: 12px;
+	margin-top: 10px;
+}
+nav ul li a {
+	display: inline;
+	color: white;
+	text-decoration: none;
+}
+#nav {
+	font-family: 'Montserrat', sans-serif;
+}
+.homered{
+	background-color:red;
+	padding: 40px 20px 30px 20px;
+}
+.divide{
+	background-color:red;
+	height: 5px;
+}
+.hmblk:hover{
+	background-color: blue;
+	padding: 50px 20px 30px 10px;
+	
+}
+img{
+	background-image: url(image/cam.jpg);
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+	padding-top:-100;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+.sub{
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	margin: 0;
+
+}
+.sub1{
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 50px;
+	margin: 0.5% 0% 0% 0%;
+
+}
+.sub2{
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-size: 30px;
+
+}
+.but{
+	color: black;
+	border: none;
+	height: 50px;
+	font-size: 1.4em;
+	background-color: yellow;
+	cursor: pointer;
+	outline: none;
+	font-weight: 900;
+}
+.con
+{
+	color:#708090;
+	font-size: 50px;
+	padding-right: 250px;
+	padding-top:300px;
+
+}
+.mail
+{
+	color:#708090;
+	border: none;
+	font-size: 50px;
+	padding-right: 180px;
+	padding-bottom:120px;
+}
+.pic{
+
+	width:250px ;
+	padding:10px;
+	
+    opacity: 0.7;
+    
+
+}
+.simple
+{
+	text-align:center;
+	margin: 100px  400px;
+}
+#rege
+{
+	width: 100%;
+	background-color: #051019;
+	opacity: 0.8;
+	padding: 50px 0px;
+}
+#button
+{
+	width:250px ;
+	padding:10px;
+	border-radius: 5px
+}
+#phone
+{
+	width:200px ;
+	padding:10px;
+	border-radius: 5px
+}
+#ph
+{
+	width:40px ;
+	padding:10px;
+	border-radius: 5px
+
+}
+#rd
+{
+	color: white;
+	font-size: 18px;
+}
+#but
+{
+	color: white;
+	font-size: 18px;
+}
+#butt
+{	
+	width:250px ;
+	padding:10px;
+	border-radius: 5px;
+	outline:0px;
+	background-color: #0c6996;
+	border: 2px solid #01010c;
+	color: aliceblue;
+	font-size:18px;
+}
